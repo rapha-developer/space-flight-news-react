@@ -14,7 +14,7 @@ export const HomeArticle = ({ article }: Props) => {
             >
                 <picture>
                 <img 
-                    className="aspect-video object-cover"
+                    className="aspect-video object-cover mb-4"
                     src={article.imageUrl}
                     alt={article.title}
                     width="1920"
@@ -22,10 +22,10 @@ export const HomeArticle = ({ article }: Props) => {
                     loading='lazy'
                 /> 
                 </picture>
-                <h2 className="text-2xl">{article.title}</h2>
-                <p className="text-sm hidden lg:block">{article.summary}</p>
+                <h2 className="font-sans text-2xl text-white mb-2">{article.title}</h2>
+                <p className="text-sm text-dark-300 hidden lg:block">{article.summary}</p>
             </Link>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-300">
                 {new Date(article.publishedAt).toLocaleString()}
             </p>
         </div>
