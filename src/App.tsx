@@ -4,7 +4,7 @@ import { HomePage } from './components/Home/HomePage'
 import { ArticlePage } from './components/Article/ArticlePage'
 const App = () => {
   return (
-    <>
+    <div className='bg-dark-100 min-h-screen'>
     <BrowserRouter>
       <Header />
       <Routes>
@@ -13,7 +13,7 @@ const App = () => {
         <Route path='*' element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
-    </>
+    </div>
   )
 }
 
