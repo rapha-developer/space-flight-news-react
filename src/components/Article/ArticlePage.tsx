@@ -1,5 +1,5 @@
-import { RocketLaunchIcon } from '@heroicons/react/24/solid'
-import { useParams } from 'react-router-dom'
+import { RocketLaunchIcon, ArrowLeftIcon } from '@heroicons/react/24/solid'
+import { Link, useParams } from 'react-router-dom'
 import { useMemo } from 'react'
 import type { Article } from '../../types/article'
 import { useFetch } from '../../hooks/useFetch'
@@ -11,14 +11,20 @@ export const ArticlePage = () => {
         return new URL(`https://api.spaceflightnewsapi.net/v3/articles/${id}`)
     }, [id])
     const { data: article, isLoading} = useFetch<Article>(fetchUrl)
-
+    const backToHome = "Back to Home"
     return (
         <div className="container mx-auto">
             {isLoading || !article ? (
                 <RocketLaunchIcon className='mx-auto my-12 h-12 w-12 text-gray-400 animate-bounce'
                 />
             ): (
-                <div className="px-4 lg:px-0">
+                <div className="px-4 lg:px-0 pb-16">
+                    <Link to={'/'}
+                        preventScrollReset={true}>
+                        <div className="relative h-12 w-full ml-3 mb-6 flex flex-row gap-2 items-center cursor-pointer">
+                            <ArrowLeftIcon className='h-6 w-6 text-gray-400' /> <span className='text-sm text-gray-300'>{backToHome}</span> 
+                        </div>
+                    </Link>
                     <img 
                         className='mt-4 w-full aspect-video object-cover'
                         src={article.imageUrl} 
@@ -27,11 +33,11 @@ export const ArticlePage = () => {
                         height="1080"
                         loading='lazy'
                     />
-                    <p className="mt-2 text-sm text-gray-500">
+                    <p className="mt-2 text-sm text-gray-300">
                         {new Date(article.publishedAt).toLocaleString()}
                     </p>
-                    <h2 className="mt-4 text-4xl">{article.title}</h2>
-                    <p className="mt-4 text-base">{article.summary}</p>
+                    <h2 className="mt-4 font-sans text-4xl text-white">{article.title}</h2>
+                    <p className="mt-4 text-base text-dark-300">{article.summary}</p>
                 </div>
             )}
         </div>
