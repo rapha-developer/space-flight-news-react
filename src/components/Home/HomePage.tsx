@@ -22,7 +22,7 @@ export const HomePage = () => {
   const { data: articles, isLoading } = useFetch<Article[]>(fetchUrl)
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pb-16">
       {isLoading ? (
         <RocketLaunchIcon className="mx-auto my-12 h-12 w-12 text-gray-400 animate-bounce" />
       ) : (
