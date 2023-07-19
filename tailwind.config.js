@@ -12,6 +12,9 @@ export default {
           '200': 'hsl(var(--color-dark-200))',
           '300': 'hsl(var(--color-dark-300))'
         },
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'] 
       }
     },
   },
