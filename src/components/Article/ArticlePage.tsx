@@ -18,7 +18,7 @@ export const ArticlePage = () => {
                 <RocketLaunchIcon className='mx-auto my-12 h-12 w-12 text-gray-400 animate-bounce'
                 />
             ): (
-                <div className="px-4 lg:px-0 pb-16">
+                <div className="px-4 lg:px-0 pb-24">
                     <Link to={'/'}
                         preventScrollReset={true}>
                         <div className="relative h-12 w-full ml-3 mb-6 flex flex-row gap-2 items-center cursor-pointer">
@@ -26,18 +26,18 @@ export const ArticlePage = () => {
                         </div>
                     </Link>
                     <img 
-                        className='mt-4 w-full aspect-video object-cover'
+                        className='mt-4 w-full aspect-video object-cover rounded-xl'
                         src={article.imageUrl} 
                         alt={article.title} 
                         width="1920"
                         height="1080"
                         loading='lazy'
                     />
-                    <p className="mt-2 text-sm text-gray-300">
+                    <p className="mt-3 font-inter font-normal text-sm text-gray-300">
                         {new Date(article.publishedAt).toLocaleString()}
                     </p>
-                    <h2 className="mt-4 font-sans text-4xl text-white">{article.title}</h2>
-                    <p className="mt-4 text-base text-dark-300">{article.summary}</p>
+                    <h2 className="mt-4 font-sans font-semibold text-4xl text-gray-300 w-full xl:max-w-4xl">{article.title}</h2>
+                    <p className="mt-4 font-inter font-medium text-base text-dark-300 w-full xl:max-w-4xl">{article.summary}</p>
                 </div>
             )}
         </div>
