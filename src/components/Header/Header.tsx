@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <header className='bg-current relative min-h-[400px]'>
             <img src="/earth_on_top.jpg" 
-                className='w-full lg:object-cover aspect-auto h-[483px] -z-10'
+                className='w-full object-none lg:object-cover h-[483px] -z-10'
                 alt="Photo of planet earth" 
             />
             <div className="absolute top-0 left-0 w-full z-10 pt-4">
