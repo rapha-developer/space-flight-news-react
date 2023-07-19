@@ -13,7 +13,7 @@ export const HomePage = () => {
   const fetchUrl = useMemo(() => {
     const url = new URL('https://api.spaceflightnewsapi.net/v3/articles')
     url.searchParams.append('_sort', 'publishedAt:DESC')
-    url.searchParams.append('_limit', '18')
+    url.searchParams.append('_limit', '9')
     if (query.length > 0) {
       url.searchParams.append('_q', query)
     }
@@ -22,7 +22,7 @@ export const HomePage = () => {
   const { data: articles, isLoading } = useFetch<Article[]>(fetchUrl)
 
   return (
-    <div className="container mx-auto pb-16">
+    <div className="container mx-auto pb-24">
       {isLoading ? (
         <RocketLaunchIcon className="mx-auto my-12 h-12 w-12 text-gray-400 animate-bounce" />
       ) : (
