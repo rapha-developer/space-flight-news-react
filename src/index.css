@@ -9,3 +9,6 @@
         --color-dark-300: 219 20% 66%;
     }
 }
+body {
+    background-color: hsl(var(--color-dark-100))
+}
