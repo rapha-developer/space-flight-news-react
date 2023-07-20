@@ -21,8 +21,8 @@ export const ArticlePage = () => {
                 <div className="px-4 lg:px-0 pb-24">
                     <Link to={'/'}
                         preventScrollReset={true}>
-                        <div className="relative h-12 w-full ml-3 mb-6 flex flex-row gap-2 items-center cursor-pointer">
-                            <ArrowLeftIcon className='h-6 w-6 text-gray-400' /> <span className='text-sm text-gray-300'>{backToHome}</span> 
+                        <div className="relative h-12 w-full ml-3 mb-6 flex flex-row gap-2 items-center cursor-pointer group">
+                            <ArrowLeftIcon className='h-6 w-6 text-gray-400 transition-colors duration-300 group-hover:text-white' /> <span className='text-sm text-gray-300 transition-colors duration-300 ease-in group-hover:text-white'>{backToHome}</span> 
                         </div>
                     </Link>
                     <img 
