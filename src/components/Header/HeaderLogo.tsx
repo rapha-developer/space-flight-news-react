@@ -2,11 +2,11 @@
 export const HeaderLogo = () => {
     return (
         <img 
-            src="/logo.svg" 
+            src="/spaceFlight-logo.svg" 
             alt="loremIpsum logo" 
             height="40"
-            width="170"
-            className='w-full'
+            width="150"
+            className='w-full max-w-[95px] sm:max-w-[150px]'
         />
     )
 }
