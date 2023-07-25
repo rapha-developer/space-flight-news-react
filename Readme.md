@@ -53,3 +53,57 @@ https://github.com/rapha-developer/space-flight-news-react/assets/91702283/55c97
 
 <br />
 
+## :desktop_computer: **To use**
+
+<p align="center">
+  <a href="#">
+      <img src="https://img.shields.io/badge/NODE%20%3E=-16.16.0-663399?style=flat-square&logo=node.js" alt="Node version: 16.16.0">
+  </a>
+  <a href="#">
+      <img src="https://img.shields.io/badge/NPM%20%3E=-v8.11.0-cf486a?style=flat-square&logo=npm" alt="NPM version: 8.11.0">
+  </a>       
+  <a href="#">
+      <img src="https://img.shields.io/badge/React%20%3E=-v18.2.0-a626a6?logo=react&style=square&color=AF0171&labelColor=371B58" alt="React version: 10.2.28">
+  </a>
+  <a href="#">
+      <img src="https://img.shields.io/badge/Vite%20%3E=-v4.3.9-FC6E51?logo=vite&style=square&logoColor=blue&labelColor=E7F6F2" alt="Vite version: 4.3.9">
+  </a>     
+</p>
+<br />
+
+> #### 1. Clone and open this project
+> ###### 1.1 Clone this repository (Clone este repositório) 
+>```sh
+>   git clone https://github.com/rapha-developer/space-flight-news-react.git
+> ```
+> ###### 1.2 Go to the project directory (Vá para o diretório do projeto) 
+>```bash
+>  cd space-flight-news-react
+> ```
+
+<br />
+
+> #### 2. Install dependencies and start the server with NPM
+> ######  2.1 Install dependencies with NPM
+> ```sh
+>   npm install 
+> ```
+>
+> ###### 2.2 Execute application with NPM
+> ```sh
+>   npm run dev
+> ```
+
+<br/>:point_right: **OR** <i>(Ou)</i><br/><br/> 
+
+> #### 2. Install dependencies and start the server with Yarn
+> ######  2.1 Install dependencies with Yarn
+> ```sh
+>   yarn install 
+> ```
+>
+> ###### 2.2 Execute application with Yarn
+> ```sh
+>   yarn dev
+> ```
+<br />
