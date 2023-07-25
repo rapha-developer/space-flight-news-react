@@ -112,3 +112,12 @@ https://github.com/rapha-developer/space-flight-news-react/assets/91702283/55c97
 
 <p align="left">Spaceflight News API <b>(SNAPI)</b> enables developers to add the latest spaceflight news to their apps.<br />Check the documentation  and other project information <a href="https://github.com/TheSpaceDevs/spaceflightnewsapi">HERE</a></p>
 <p align="left">Spaceflight News API <b>(SNAPI)</b> permite que os desenvolvedores adicionem as últimas notícias de voos espaciais aos seus aplicativos.<br />Veja a documentação e outras informações do projeto <a href="https://github.com/TheSpaceDevs/spaceflightnewsapi">AQUI</a></p>
+
+## :hammer_and_pick: **Features**
+
+<dl>
+  <dd>:white_check_mark: Search for the latest spaceflight news based on user input.<br />
+    (<i>Pesquise as últimas notícias sobre voo espacial com base na entrada do usuário!</i>)</dd>
+  <dd>:white_check_mark: Click on a headline and check out the full article. <br />(<i>Clique em uma manchete e confira o artigo completo!</i>)</dd>
+</dl>
+<br />
