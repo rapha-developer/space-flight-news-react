@@ -44,3 +44,12 @@
 <p align="left"><i>Para aprender técnicas básicas do ReactJS com Typescript. Para também aprender e usar React Router DOM para roteamento de páginas.<br />Para aprender a usar tailwind CSS na estilização de uma página completa, que busca e mostra notícias vindas da Spaceflight News API.<br /> <b>Spaceflight news API</b> é uma API <b>(Interface de programação de aplicações)</b> que mostra uma visão geral das últimas notícias do voo espacial, de várias fontes!</i></p>
 <br />
 
+## :rocket: **Demo**
+
+### :fist_right::boom:	<a target="_blank" href="https://space-flight-news-rapha.netlify.app/">DEMO</a>  :boom::fist_left:
+<br />
+
+https://github.com/rapha-developer/space-flight-news-react/assets/91702283/55c971b9-f753-4ad2-95bd-a35749b2d7d0
+
+<br />
+
