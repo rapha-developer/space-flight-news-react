@@ -18,7 +18,7 @@ export const Footer = () => {
                 <div className="container mx-auto flex flex-wrap flex-col gap-4 justify-items-center items-center">
                     <div className="w-full flex flex-col gap-6 items-center">
                         <img 
-                            src="/logo.svg" 
+                            src="/spaceFlight-logo.svg" 
                             alt="Lorem ipsum icon" 
                             className="w-[171px] h-11 aspect-auto"
                             width="171"
