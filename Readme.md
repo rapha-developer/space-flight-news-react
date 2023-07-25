@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/rapha-developer/laravel-backend-for-css-dictionary/assets/91702283/73037199-6c75-48a7-9d9a-a2f35dd1bf6e" alt="Space related news logo" height="400" width="400">
+  <img src="https://github.com/rapha-developer/space-flight-news-react/assets/91702283/6ae0664a-763c-436b-8bec-15214605523c" alt="Space related news logo" height="400" width="400">
   <br>
 </h1>
 <p align="center">Space Flight news with React lets you see the latest space related news in your browser.</p>
