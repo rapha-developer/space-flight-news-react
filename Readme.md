@@ -30,3 +30,17 @@
         <img src="https://img.shields.io/badge/license-MIT-1abc9c.svg" alt="License MIT" />
     </a>  
 </p>
+<p align="center">
+    <a href="#student-why">Why (por que?)</a> &nbsp;|&nbsp;
+    <a href="#rocket-demo">Demo</a> &nbsp;|&nbsp;
+    <a href="#desktop_computer-to-use">How to use? (Como usar)</a> &nbsp;|&nbsp;
+    <a href="#zap-about-space-flight">About Space Flight News</a> &nbsp;|&nbsp;  
+    <a href="#hammer_and_pick-features">Features</a> &nbsp;|&nbsp;  
+    <a href="#pencil-license">License</a> 
+</p>
+
+## :student: **Why?**
+<p align="left">To learn basic ReactJS techniques with Typescript. To also learn and use React Router DOM for page routing.<br />To learn how to use tailwind CSS in styling a complete page, which fetches and displays news coming from the Spaceflight News API. <br /><b>Spaceflight news API</b> is an API <b>(Application Programming Interface)</b> that shows overview of the latest spaceflight news from various sources!</p>
+<p align="left"><i>Para aprender técnicas básicas do ReactJS com Typescript. Para também aprender e usar React Router DOM para roteamento de páginas.<br />Para aprender a usar tailwind CSS na estilização de uma página completa, que busca e mostra notícias vindas da Spaceflight News API.<br /> <b>Spaceflight news API</b> é uma API <b>(Interface de programação de aplicações)</b> que mostra uma visão geral das últimas notícias do voo espacial, de várias fontes!</i></p>
+<br />
+
