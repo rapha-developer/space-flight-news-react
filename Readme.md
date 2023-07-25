@@ -107,3 +107,8 @@ https://github.com/rapha-developer/space-flight-news-react/assets/91702283/55c97
 >   yarn dev
 > ```
 <br />
+
+## :zap: About Space flight 
+
+<p align="left">Spaceflight News API <b>(SNAPI)</b> enables developers to add the latest spaceflight news to their apps.<br />Check the documentation  and other project information <a href="https://github.com/TheSpaceDevs/spaceflightnewsapi">HERE</a></p>
+<p align="left">Spaceflight News API <b>(SNAPI)</b> permite que os desenvolvedores adicionem as últimas notícias de voos espaciais aos seus aplicativos.<br />Veja a documentação e outras informações do projeto <a href="https://github.com/TheSpaceDevs/spaceflightnewsapi">AQUI</a></p>
