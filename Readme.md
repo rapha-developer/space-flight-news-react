@@ -20,7 +20,7 @@
     <a href=#">
         <img src="https://img.shields.io/badge/tailwindcss-v3.3.2-0284c7?logo=tailwindcss&style=square&labelColor=white" alt="Tailwind version: 3.3.2" >
     </a>
-    <a href="#">
+    <a href="https://space-flight-news-rapha.netlify.app" target="_blank">
         <img src="https://img.shields.io/badge/demo-online-brightgreen" alt="Click to check demo online">
     </a>
     <a href="#">
