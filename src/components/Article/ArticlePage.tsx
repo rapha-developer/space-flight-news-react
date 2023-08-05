@@ -36,7 +36,7 @@ export const ArticlePage = () => {
                     <p className="mt-3 font-inter font-normal text-sm text-gray-300">
                         {new Date(article.publishedAt).toLocaleString()}
                     </p>
-                    <h2 className="mt-4 font-sans font-semibold text-4xl text-gray-300 w-full xl:max-w-4xl">{article.title}</h2>
+                    <h1 className="mt-4 font-sans font-semibold text-4xl text-gray-300 w-full xl:max-w-4xl">{article.title}</h1>
                     <p className="mt-4 font-inter font-medium text-base text-dark-300 w-full xl:max-w-4xl">{article.summary}</p>
                 </div>
             )}
